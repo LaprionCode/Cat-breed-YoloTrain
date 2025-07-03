@@ -113,13 +113,6 @@ Upload a cat photo:
 
 ---
 
-## ⚠️ Notes
-
-- For **Windows users**, the script handles `pathlib.PosixPath` compatibility with PyTorch.
-- Haar cascade (`haarcascade_frontalcatface.xml`) is used as a fallback to crop face if YOLO fails.
-- You can improve YOLO detection by training on higher-resolution datasets and adding more breed variations.
-
----
 
 ## 📚 Citation
 
